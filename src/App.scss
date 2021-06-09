@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100vh;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+
+h1 {     margin: 0 6px 0 0;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 110%;
+    letter-spacing: .1em;
+    color: rgba(0,0,0,.8); }
