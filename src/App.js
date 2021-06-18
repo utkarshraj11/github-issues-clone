@@ -3,7 +3,6 @@ import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { getGitIssues } from "./api/api";
 import Issues from "./components/Issues/Issues";
-import Spinner from "./components/Spinner/Spinner";
 import Pagination from "./components/Pagination/Pagination";
 
 const App = () => {
@@ -27,7 +26,7 @@ const App = () => {
   const paginate = (pageNumber) => setPresentPage(pageNumber);
 
   if (isLoading) {
-    return <Spinner />;
+    return <h1>Loading...</h1>;
   }
   return (
     <div className="App">

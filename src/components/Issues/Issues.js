@@ -5,7 +5,6 @@ import {
   faCheckCircle,
   faExclamationCircle
 } from "@fortawesome/free-solid-svg-icons";
-import {Link} from 'react-router-dom';
 
 const Issues = (props) => {
     return (
